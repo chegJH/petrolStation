@@ -1,5 +1,6 @@
 model PetrolSupplySystem
-
+--enum
+enum Sex {male, female}
 -------------------------------------------------------------------------------
 -- CLASSES ********************************************************************
 -------------------------------------------------------------------------------
@@ -22,8 +23,9 @@ end
 class Pump
 attributes
   fillVolume : Real
-  fillCost: Real
-  rtPrice: Real --retail price
+  fillCost  : Real
+  rtPrice : Real --retail price
+  occupied : Boolean --a Pump servse one/two at same time
 operations
   pumping(volume : Real)
 end
@@ -31,23 +33,35 @@ end
 class Store
 attributes
   remainVolume : Real
+  capacity : Real
+operations  --operation of add or take 
+  drain : Real
+  fill  : Real
 end
 
 class Record
-attributes
+ attributes
   historyVolume : Real
   outstandVolume : Real
   owedMoney : Real
 end
 
 class Person
+ attributes 
+  name : String
+  money : Real
+ operations
+  sendMoney(m : Real)
+  receiveMoney(m : Real) 
 end
 
 class Supervisor < Person
-attributes
+ attributes
   todo : Integer
-operations
+  myStation : Station 
+ operations
   reset(p : Pump)
+  signStation(s : Station) -- sign a supervisor to specific station
 end
 
 class Customer < Person
@@ -87,9 +101,36 @@ association records between
   Record[1]
 end
 
+association workIn between
+  Station[1]
+  Supervisor[1]
+end
+
 -------------------------------------------------------------------------------
 -- CONSTRAINTS ****************************************************************
 -------------------------------------------------------------------------------
-
+-------------------------------------
+--hasMoney: Customer have money to pay
+--hasGas: Store have gas to deliver
+--notWorkHere: Customer is not the supervisor for same station
+--transaction: Money flows 
+-------------------------------------
 --context Customer::fillup(fillAmount : Real)
+  --pre hasMoney
+  --pre hasGas
+  --pre notWorkHere --Can not be customer and supervisor of same station
+  --post transaction money = self.money - cost
+
+-------------------------------------
+--
+--
+-------------------------------------
+--context Pump::fillip(fillAmount : Real)
+  --pre notEmpty
+
+-------------------------------------
+--
+--
+-------------------------------------
+--context Supervisor::reset(p : Pump)
 
