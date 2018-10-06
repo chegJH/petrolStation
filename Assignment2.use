@@ -1,0 +1,95 @@
+model PetrolSupplySystem
+
+-------------------------------------------------------------------------------
+-- CLASSES ********************************************************************
+-------------------------------------------------------------------------------
+
+class Company
+attributes
+  name : String
+  wsprice : Integer --wholesale price
+operations
+  restock(volume : Real)
+end
+
+class Station
+attributes
+  owedMoney : Real
+operations
+  payOwe(amount : Real)
+end
+
+class Pump
+attributes
+  fillVolume : Real
+  fillCost: Real
+  rtPrice: Real --retail price
+operations
+  pumping(volume : Real)
+end
+
+class Store
+attributes
+  remainVolume : Real
+end
+
+class Record
+attributes
+  historyVolume : Real
+  outstandVolume : Real
+  owedMoney : Real
+end
+
+class Person
+end
+
+class Supervisor < Person
+attributes
+  todo : Integer
+operations
+  reset(p : Pump)
+end
+
+class Customer < Person
+attributes
+  todo : String
+operations
+  fillup(fillAmount : Real)
+end
+
+-------------------------------------------------------------------------------
+-- ASSOCIATIONS ***************************************************************
+-------------------------------------------------------------------------------
+
+association owns between
+  Company[1]
+  Station[1..*]
+end
+
+association has between
+  Station[1]
+  Pump[1..*]
+end
+
+association connectedTo between
+  Store[1]
+  Pump[1..*]
+end
+
+--interaction can be using or reseting
+association interacts between
+  Person[*]
+  Pump[0..*]
+end
+
+association records between
+  Station[1]
+  Record[1]
+end
+
+-------------------------------------------------------------------------------
+-- CONSTRAINTS ****************************************************************
+-------------------------------------------------------------------------------
+
+--context Customer::fillup(fillAmount : Real)
+
