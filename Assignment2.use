@@ -1,6 +1,5 @@
 model PetrolSupplySystem
---enum
-enum Sex {male, female}
+
 -------------------------------------------------------------------------------
 -- CLASSES ********************************************************************
 -------------------------------------------------------------------------------
@@ -9,66 +8,64 @@ class Company
 attributes
   name : String
   wsprice : Integer --wholesale price
-operations
-  restock(volume : Real)
+  money : Real
 end
 
 class Station
 attributes
-  owedMoney : Real
+  owedMoney : Real -- the amount station need to pay to the Company
+  money : Real -- the amount station earned
+  records : Record
 operations
-  payOwe(amount : Real)
+  payOwe(amount : Real):Real
+  resetRecord():Record -- reset the record written by other classe
+  restock(volume : Real):Real -- station initiate the restock request
 end
 
 class Pump
 attributes
   fillVolume : Real
-  fillCost  : Real
   rtPrice : Real --retail price
   occupied : Boolean --a Pump servse one/two at same time
+  isReset : Boolean --Supervisor can reset this 
 operations
-  pumping(volume : Real)
+  pumping(volume : Real):Real
 end
 
 class Store
 attributes
   remainVolume : Real
   capacity : Real
-operations  --operation of add or take 
-  drain : Real
-  fill  : Real
 end
 
 class Record
  attributes
-  historyVolume : Real
-  outstandVolume : Real
-  owedMoney : Real
+  volume : Real
+ operations
+  reset() : Real-- reset the data
 end
 
 class Person
  attributes 
   name : String
   money : Real
- operations
-  sendMoney(m : Real)
-  receiveMoney(m : Real) 
 end
 
 class Supervisor < Person
  attributes
   todo : Integer
   myStation : Station 
+  notes : Record
  operations
   reset(p : Pump)
-  signStation(s : Station) -- sign a supervisor to specific station
+  reportRecords():Record
 end
 
 class Customer < Person
-attributes
+ attributes
   todo : String
-operations
-  fillup(fillAmount : Real)
+ operations
+  fillup(fillAmount : Real):Real
 end
 
 -------------------------------------------------------------------------------
@@ -76,34 +73,48 @@ end
 -------------------------------------------------------------------------------
 
 association owns between
-  Company[1]
-  Station[1..*]
+  Company[1] role head
+  Station[1..*] role sub
 end
 
 association has between
-  Station[1]
-  Pump[1..*]
+  Station[1] role loc
+  Pump[1..*] role equ
+end
+
+association gasStorage between
+  Station[1] role host
+  Store[1] role gasPool
 end
 
 association connectedTo between
-  Store[1]
-  Pump[1..*]
+  Store[1] role source
+  Pump[1..*] role drain
 end
 
---interaction can be using or reseting
 association interacts between
-  Person[*]
-  Pump[0..*]
+  Person[1] role human
+  Pump[1] role machine
 end
 
-association records between
-  Station[1]
-  Record[1]
+association recording between
+  Supervisor[1] role operater
+  Pump[1..*] role device
+end
+
+association reporting between
+  Supervisor[1] role reporter
+  Station[1] role plateform
 end
 
 association workIn between
-  Station[1]
-  Supervisor[1]
+  Station[1] role employer
+  Supervisor[1] role employee
+end
+
+association shoppingAt between
+  Customer[1] role paymentSender
+  Pump[1] role paymentReceiver
 end
 
 -------------------------------------------------------------------------------
@@ -112,25 +123,51 @@ end
 -------------------------------------
 --hasMoney: Customer have money to pay
 --hasGas: Store have gas to deliver
---notWorkHere: Customer is not the supervisor for same station
---transaction: Money flows 
+--payForGas: Money flows 
 -------------------------------------
---context Customer::fillup(fillAmount : Real)
-  --pre hasMoney
-  --pre hasGas
-  --pre notWorkHere --Can not be customer and supervisor of same station
-  --post transaction money = self.money - cost
+constraints
+context Customer::fillup(fillAmount:Real):Real
+  pre hasGas: self.paymentReceiver.source.remainVolume >= fillAmount
+  pre hasMoney: self.money > fillAmount*(self.paymentReceiver.rtPrice)
+  post payForGas: self.money = self.money - fillAmount*(self.paymentReceiver.rtPrice)
 
 -------------------------------------
---
---
+--billPaid: Station has pay bills before get a refill
+--fullFill: restore gasPool to max
+--clearRecord: clean record
 -------------------------------------
---context Pump::fillip(fillAmount : Real)
-  --pre notEmpty
+context Station::restock(volume:Real):Real
+  pre billPaid: self.owedMoney = 0
+  post fullFill: self.gasPool = 1000
+  post clearRecord: self.records.volume = 0
 
 -------------------------------------
---
---
+--payOff: payOff Company to clear record
+--clearRecord: clean record
 -------------------------------------
---context Supervisor::reset(p : Pump)
+context Station::resetRecord():Record
+  post payOff: self.head.money = self.head.money + self.owedMoney
+  post clearRecord: self.records.volume = 0
+
+context Station::payOwe(amount:Real):Real
+  pre haveMoney: self.money > owedMoney
+  post pay: self.head.money =+owedMoney
+  post payOff: self.money = self.money - owedMoney
+
+context Record::reset():Real
+  post clearRecord: self.volume = 0
+
+context Pump::pumping(volume:Real):Real
+  pre haveSource: self.source.remainVolume>volume
+  pre: isReset = true
+  post superVisorRecord: self.operater.notes.volume=+volume
+  post requestPayment: self.paymentSender.money =- fillVolume*rtPrice
+  post collectMoney: self.loc.money=+fillVolume*rtPrice
+  post :isReset = false
+
+context Supervisor::reportRecords():Record
+  pre: self.notes.volume > 0
+  pre workHere: self.employer = self.plateform
+  pre allPumpRecorded: self.device->forAll(p:Pump | p.isReset = true) = true--self.device.isReset = true
+  post reportVolume: self.plateform.records.volume=+self.notes.volume
 

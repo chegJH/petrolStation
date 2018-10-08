@@ -1,0 +1,35 @@
+model languagePr
+enum Sex{male,female}
+
+class Person
+ attributes
+  name:String
+  age:Integer
+  sex:Sex
+ operations
+  marry(p:Person)
+  income(d: Integer):Integer
+end
+constraints
+context Person inv ageLimit:
+ self.age > 18
+context Person::income(d:Integer):Integer
+ pre some_pre:d >self.age
+
+class Company
+ attributes
+  name: String
+  numberOfEmployees: Integer
+ operations
+  stockPrice() : Real
+end
+constraints
+context Company inv:
+ numberOfEmployees > 50
+
+
+  
+association Job between
+ Person[1] role employee
+ Company[1] role employer
+end
