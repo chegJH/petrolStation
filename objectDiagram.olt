@@ -7,134 +7,134 @@
         <showmultiplicities>false</showmultiplicities>
         <showoperations>false</showoperations>
         <showrolenames>true</showrolenames>
-        <showgrid>false</showgrid>
-        <ShowStates>false</ShowStates>
+        <showgrid>true</showgrid>
+        <ShowStates>true</ShowStates>
     </diagramOptions>
     <node id="Store2" sizeCalculated="true" type="Object">
         <name>Store2</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>1127.0</x>
-            <y>90.0</y>
+            <x>1358.0</x>
+            <y>59.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Store1" sizeCalculated="true" type="Object">
         <name>Store1</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>420.0</x>
-            <y>185.0</y>
+            <x>15.0</x>
+            <y>120.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Company1" sizeCalculated="true" type="Object">
         <name>Company1</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>259.0</x>
-            <y>31.0</y>
+            <x>635.0</x>
+            <y>-7.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Station2" sizeCalculated="true" type="Object">
         <name>Station2</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>143.0</x>
-            <y>175.0</y>
+            <x>363.0</x>
+            <y>99.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Pump6" sizeCalculated="true" type="Object">
         <name>Pump6</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>886.0</x>
-            <y>230.0</y>
+            <x>987.0</x>
+            <y>385.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Pump4" sizeCalculated="true" type="Object">
         <name>Pump4</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>722.0</x>
-            <y>228.0</y>
+            <x>823.0</x>
+            <y>383.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Station1" sizeCalculated="true" type="Object">
         <name>Station1</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>926.0</x>
-            <y>45.0</y>
+            <x>1038.0</x>
+            <y>47.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Customer1" sizeCalculated="true" type="Object">
         <name>Customer1</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>152.0</x>
-            <y>514.0</y>
+            <x>107.0</x>
+            <y>481.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Pump5" sizeCalculated="true" type="Object">
         <name>Pump5</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>1039.0</x>
-            <y>232.0</y>
+            <x>1140.0</x>
+            <y>387.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Pump2" sizeCalculated="true" type="Object">
         <name>Pump2</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>389.0</x>
-            <y>283.0</y>
+            <x>575.0</x>
+            <y>262.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Supervisor1" sizeCalculated="true" type="Object">
         <name>Supervisor1</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>407.0</x>
-            <y>450.0</y>
+            <x>525.0</x>
+            <y>475.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Customer2" sizeCalculated="true" type="Object">
         <name>Customer2</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>735.0</x>
-            <y>436.0</y>
+            <x>900.0</x>
+            <y>558.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Pump3" sizeCalculated="true" type="Object">
         <name>Pump3</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>1190.0</x>
-            <y>231.0</y>
+            <x>1291.0</x>
+            <y>386.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Customer3" sizeCalculated="true" type="Object">
         <name>Customer3</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>971.0</x>
-            <y>445.0</y>
+            <x>1136.0</x>
+            <y>567.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Pump1" sizeCalculated="true" type="Object">
         <name>Pump1</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>78.0</x>
-            <y>298.0</y>
+            <x>230.0</x>
+            <y>265.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
     <node id="Supervisor2" sizeCalculated="true" type="Object">
         <name>Supervisor2</name>
         <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyFixed">
-            <x>642.0</x>
-            <y>92.0</y>
+            <x>753.0</x>
+            <y>134.0</y>
         </strategy>
         <hidden>false</hidden>
     </node>
@@ -154,30 +154,6 @@
                         <related0>[gasStorage : (gasPool:Store1, host:Station2)]::WayPoint::0</related0>
                         <related1>[gasStorage : (gasPool:Store1, host:Station2)]::WayPoint::1</related1>
                     </related>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[gasStorage : (gasPool:Store1, host:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
-                <name>gasPool</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>10.0</userOffsetX>
-                    <userOffsetY>-12.0</userOffsetY>
-                    <attached>[gasStorage : (gasPool:Store1, host:Station2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[gasStorage : (gasPool:Store1, host:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[gasStorage : (gasPool:Store1, host:Station2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -202,6 +178,30 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[gasStorage : (gasPool:Store1, host:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>gasPool</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>10.0</userOffsetX>
+                    <userOffsetY>-12.0</userOffsetY>
+                    <attached>[gasStorage : (gasPool:Store1, host:Station2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[gasStorage : (gasPool:Store1, host:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[gasStorage : (gasPool:Store1, host:Station2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -250,24 +250,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[gasStorage : (gasPool:Store2, host:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>gasPool</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[gasStorage : (gasPool:Store2, host:Station1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[gasStorage : (gasPool:Store2, host:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+            <edgeproperty id="[gasStorage : (gasPool:Store2, host:Station1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[gasStorage : (gasPool:Store2, host:Station1)]::WayPoint::1</attached>
+                    <attached>[gasStorage : (gasPool:Store2, host:Station1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -286,12 +274,24 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[gasStorage : (gasPool:Store2, host:Station1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+            <edgeproperty id="[gasStorage : (gasPool:Store2, host:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>gasPool</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[gasStorage : (gasPool:Store2, host:Station1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[gasStorage : (gasPool:Store2, host:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[gasStorage : (gasPool:Store2, host:Station1)]::WayPoint::0</attached>
+                    <attached>[gasStorage : (gasPool:Store2, host:Station1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -343,27 +343,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump2, operater:Supervisor1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
-                <name>device</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>42.0</userOffsetX>
-                    <userOffsetY>9.0</userOffsetY>
-                    <attached>[recording : (device:Pump2, operater:Supervisor1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump2, operater:Supervisor1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[recording : (device:Pump2, operater:Supervisor1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>operater</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump2, operater:Supervisor1)]::WayPoint::1</attached>
+                    <attached>[recording : (device:Pump2, operater:Supervisor1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -379,15 +367,27 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump2, operater:Supervisor1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>operater</name>
+            <edgeproperty id="[recording : (device:Pump2, operater:Supervisor1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>device</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump2, operater:Supervisor1)]::WayPoint::0</attached>
+                    <userOffsetX>42.0</userOffsetX>
+                    <userOffsetY>9.0</userOffsetY>
+                    <attached>[recording : (device:Pump2, operater:Supervisor1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump2, operater:Supervisor1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[recording : (device:Pump2, operater:Supervisor1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -436,30 +436,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>paymentReceiver</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -478,6 +454,30 @@
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
                     <attached>[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>paymentReceiver</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[shoppingAt : (paymentReceiver:Pump4, paymentSender:Customer2)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
@@ -529,24 +529,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump4, loc:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>equ</name>
+            <edgeproperty id="[has : (equ:Pump4, loc:Station1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump4, loc:Station1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump4, loc:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1..*</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump4, loc:Station1)]::WayPoint::1</attached>
+                    <attached>[has : (equ:Pump4, loc:Station1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -565,15 +553,27 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump4, loc:Station1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[has : (equ:Pump4, loc:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump4, loc:Station1)]::WayPoint::0</attached>
+                    <attached>[has : (equ:Pump4, loc:Station1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[has : (equ:Pump4, loc:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>equ</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[has : (equ:Pump4, loc:Station1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -622,30 +622,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump4, operater:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump4, operater:Supervisor2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump4, operater:Supervisor2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>device</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump4, operater:Supervisor2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[recording : (device:Pump4, operater:Supervisor2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>operater</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -667,6 +643,30 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump4, operater:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[recording : (device:Pump4, operater:Supervisor2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump4, operater:Supervisor2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>device</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[recording : (device:Pump4, operater:Supervisor2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -715,6 +715,30 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
+            <edgeproperty id="[owns : (head:Company1, sub:Station1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>head</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[owns : (head:Company1, sub:Station1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[owns : (head:Company1, sub:Station1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[owns : (head:Company1, sub:Station1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
             <edgeproperty id="[owns : (head:Company1, sub:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>sub</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -736,30 +760,6 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[owns : (head:Company1, sub:Station1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[owns : (head:Company1, sub:Station1)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[owns : (head:Company1, sub:Station1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>head</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[owns : (head:Company1, sub:Station1)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -808,24 +808,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[connectedTo : (drain:Pump2, source:Store1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>drain</name>
+            <edgeproperty id="[connectedTo : (drain:Pump2, source:Store1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[connectedTo : (drain:Pump2, source:Store1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[connectedTo : (drain:Pump2, source:Store1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1..*</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[connectedTo : (drain:Pump2, source:Store1)]::WayPoint::1</attached>
+                    <attached>[connectedTo : (drain:Pump2, source:Store1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -844,15 +832,27 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[connectedTo : (drain:Pump2, source:Store1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[connectedTo : (drain:Pump2, source:Store1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[connectedTo : (drain:Pump2, source:Store1)]::WayPoint::0</attached>
+                    <attached>[connectedTo : (drain:Pump2, source:Store1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[connectedTo : (drain:Pump2, source:Store1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>drain</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[connectedTo : (drain:Pump2, source:Store1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -901,30 +901,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>paymentReceiver</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
                 <name>paymentSender</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -943,6 +919,30 @@
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
                     <attached>[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>paymentReceiver</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[shoppingAt : (paymentReceiver:Pump2, paymentSender:Customer1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -994,30 +994,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump1, operater:Supervisor1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
-                <name>device</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>-13.0</userOffsetX>
-                    <userOffsetY>4.0</userOffsetY>
-                    <attached>[recording : (device:Pump1, operater:Supervisor1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump1, operater:Supervisor1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump1, operater:Supervisor1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[recording : (device:Pump1, operater:Supervisor1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>operater</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1036,6 +1012,30 @@
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
                     <attached>[recording : (device:Pump1, operater:Supervisor1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump1, operater:Supervisor1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>device</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>-13.0</userOffsetX>
+                    <userOffsetY>4.0</userOffsetY>
+                    <attached>[recording : (device:Pump1, operater:Supervisor1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump1, operater:Supervisor1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[recording : (device:Pump1, operater:Supervisor1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -1087,24 +1087,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[workIn : (employee:Supervisor2, employer:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[workIn : (employee:Supervisor2, employer:Station1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>employer</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[workIn : (employee:Supervisor2, employer:Station1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[workIn : (employee:Supervisor2, employer:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>employee</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[workIn : (employee:Supervisor2, employer:Station1)]::WayPoint::1</attached>
+                    <attached>[workIn : (employee:Supervisor2, employer:Station1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
@@ -1123,15 +1111,27 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[workIn : (employee:Supervisor2, employer:Station1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>employer</name>
+            <edgeproperty id="[workIn : (employee:Supervisor2, employer:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>employee</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[workIn : (employee:Supervisor2, employer:Station1)]::WayPoint::0</attached>
+                    <attached>[workIn : (employee:Supervisor2, employer:Station1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[workIn : (employee:Supervisor2, employer:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[workIn : (employee:Supervisor2, employer:Station1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1180,30 +1180,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[workIn : (employee:Supervisor1, employer:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>employee</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[workIn : (employee:Supervisor1, employer:Station2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[workIn : (employee:Supervisor1, employer:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[workIn : (employee:Supervisor1, employer:Station2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[workIn : (employee:Supervisor1, employer:Station2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1225,6 +1201,30 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[workIn : (employee:Supervisor1, employer:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>employee</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[workIn : (employee:Supervisor1, employer:Station2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[workIn : (employee:Supervisor1, employer:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[workIn : (employee:Supervisor1, employer:Station2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1273,30 +1273,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>paymentReceiver</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1315,6 +1291,30 @@
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
                     <attached>[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>paymentReceiver</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[shoppingAt : (paymentReceiver:Pump1, paymentSender:Customer1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
@@ -1366,30 +1366,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump5, loc:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>equ</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump5, loc:Station1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump5, loc:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1..*</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump5, loc:Station1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[has : (equ:Pump5, loc:Station1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>loc</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1408,6 +1384,30 @@
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
                     <attached>[has : (equ:Pump5, loc:Station1)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[has : (equ:Pump5, loc:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>equ</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[has : (equ:Pump5, loc:Station1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[has : (equ:Pump5, loc:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[has : (equ:Pump5, loc:Station1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -1459,8 +1459,32 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump3, operater:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+            <edgeproperty id="[recording : (device:Pump3, operater:Supervisor2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>operater</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>55.0</userOffsetX>
+                    <userOffsetY>-7.0</userOffsetY>
+                    <attached>[recording : (device:Pump3, operater:Supervisor2)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump3, operater:Supervisor2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[recording : (device:Pump3, operater:Supervisor2)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump3, operater:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
@@ -1480,30 +1504,6 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump3, operater:Supervisor2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>operater</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump3, operater:Supervisor2)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump3, operater:Supervisor2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump3, operater:Supervisor2)]::WayPoint::0</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1552,24 +1552,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>paymentReceiver</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::WayPoint::1</attached>
+                    <attached>[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -1588,12 +1576,24 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>paymentReceiver</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::WayPoint::0</attached>
+                    <attached>[shoppingAt : (paymentReceiver:Pump6, paymentSender:Customer3)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -1645,27 +1645,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[owns : (head:Company1, sub:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1..*</name>
+            <edgeproperty id="[owns : (head:Company1, sub:Station2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[owns : (head:Company1, sub:Station2)]::WayPoint::1</attached>
+                    <attached>[owns : (head:Company1, sub:Station2)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[owns : (head:Company1, sub:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>sub</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[owns : (head:Company1, sub:Station2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1681,12 +1669,24 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[owns : (head:Company1, sub:Station2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[owns : (head:Company1, sub:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>sub</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[owns : (head:Company1, sub:Station2)]::WayPoint::0</attached>
+                    <attached>[owns : (head:Company1, sub:Station2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[owns : (head:Company1, sub:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[owns : (head:Company1, sub:Station2)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -1738,27 +1738,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump1, loc:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1..*</name>
+            <edgeproperty id="[has : (equ:Pump1, loc:Station2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump1, loc:Station2)]::WayPoint::1</attached>
+                    <attached>[has : (equ:Pump1, loc:Station2)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump1, loc:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>equ</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump1, loc:Station2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1774,12 +1762,24 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump1, loc:Station2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[has : (equ:Pump1, loc:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>equ</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump1, loc:Station2)]::WayPoint::0</attached>
+                    <attached>[has : (equ:Pump1, loc:Station2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[has : (equ:Pump1, loc:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[has : (equ:Pump1, loc:Station2)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -1831,30 +1831,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump6, operater:Supervisor2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>device</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump6, operater:Supervisor2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump6, operater:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump6, operater:Supervisor2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[recording : (device:Pump6, operater:Supervisor2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -1867,12 +1843,36 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump6, operater:Supervisor2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+            <edgeproperty id="[recording : (device:Pump6, operater:Supervisor2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
                 <name>operater</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>15.0</userOffsetX>
+                    <userOffsetY>3.0</userOffsetY>
+                    <attached>[recording : (device:Pump6, operater:Supervisor2)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump6, operater:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump6, operater:Supervisor2)]::WayPoint::0</attached>
+                    <attached>[recording : (device:Pump6, operater:Supervisor2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump6, operater:Supervisor2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>device</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[recording : (device:Pump6, operater:Supervisor2)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
@@ -1924,27 +1924,15 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[reporting : (plateform:Station2, reporter:Supervisor1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+            <edgeproperty id="[reporting : (plateform:Station2, reporter:Supervisor1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[reporting : (plateform:Station2, reporter:Supervisor1)]::WayPoint::1</attached>
+                    <attached>[reporting : (plateform:Station2, reporter:Supervisor1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[reporting : (plateform:Station2, reporter:Supervisor1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
-                <name>plateform</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>25.0</userOffsetX>
-                    <userOffsetY>16.0</userOffsetY>
-                    <attached>[reporting : (plateform:Station2, reporter:Supervisor1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -1960,12 +1948,24 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[reporting : (plateform:Station2, reporter:Supervisor1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+            <edgeproperty id="[reporting : (plateform:Station2, reporter:Supervisor1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
+                <name>plateform</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>25.0</userOffsetX>
+                    <userOffsetY>16.0</userOffsetY>
+                    <attached>[reporting : (plateform:Station2, reporter:Supervisor1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[reporting : (plateform:Station2, reporter:Supervisor1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
                 <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[reporting : (plateform:Station2, reporter:Supervisor1)]::WayPoint::0</attached>
+                    <attached>[reporting : (plateform:Station2, reporter:Supervisor1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -2017,30 +2017,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[reporting : (plateform:Station1, reporter:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[reporting : (plateform:Station1, reporter:Supervisor2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[reporting : (plateform:Station1, reporter:Supervisor2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>plateform</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[reporting : (plateform:Station1, reporter:Supervisor2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[reporting : (plateform:Station1, reporter:Supervisor2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>reporter</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -2062,6 +2038,30 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[reporting : (plateform:Station1, reporter:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[reporting : (plateform:Station1, reporter:Supervisor2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[reporting : (plateform:Station1, reporter:Supervisor2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>plateform</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[reporting : (plateform:Station1, reporter:Supervisor2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -2110,35 +2110,11 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump5, operater:Supervisor2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>device</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump5, operater:Supervisor2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump5, operater:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[recording : (device:Pump5, operater:Supervisor2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[recording : (device:Pump5, operater:Supervisor2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+            <edgeproperty id="[recording : (device:Pump5, operater:Supervisor2)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="true" visible="true">
                 <name>operater</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
+                    <userOffsetX>32.0</userOffsetX>
+                    <userOffsetY>5.0</userOffsetY>
                     <attached>[recording : (device:Pump5, operater:Supervisor2)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
@@ -2152,6 +2128,30 @@
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
                     <attached>[recording : (device:Pump5, operater:Supervisor2)]::WayPoint::0</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump5, operater:Supervisor2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>device</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[recording : (device:Pump5, operater:Supervisor2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[recording : (device:Pump5, operater:Supervisor2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[recording : (device:Pump5, operater:Supervisor2)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -2203,30 +2203,6 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump6, loc:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>equ</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump6, loc:Station1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump6, loc:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1..*</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump6, loc:Station1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
             <edgeproperty id="[has : (equ:Pump6, loc:Station1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
                 <name>loc</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
@@ -2248,6 +2224,30 @@
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[has : (equ:Pump6, loc:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[has : (equ:Pump6, loc:Station1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[has : (equ:Pump6, loc:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>equ</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[has : (equ:Pump6, loc:Station1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -2296,24 +2296,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[connectedTo : (drain:Pump1, source:Store1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>drain</name>
+            <edgeproperty id="[connectedTo : (drain:Pump1, source:Store1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[connectedTo : (drain:Pump1, source:Store1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[connectedTo : (drain:Pump1, source:Store1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1..*</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[connectedTo : (drain:Pump1, source:Store1)]::WayPoint::1</attached>
+                    <attached>[connectedTo : (drain:Pump1, source:Store1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -2332,15 +2320,27 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[connectedTo : (drain:Pump1, source:Store1)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[connectedTo : (drain:Pump1, source:Store1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[connectedTo : (drain:Pump1, source:Store1)]::WayPoint::0</attached>
+                    <attached>[connectedTo : (drain:Pump1, source:Store1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[connectedTo : (drain:Pump1, source:Store1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>drain</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[connectedTo : (drain:Pump1, source:Store1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -2389,24 +2389,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump2, loc:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>equ</name>
+            <edgeproperty id="[has : (equ:Pump2, loc:Station2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump2, loc:Station2)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>TOP</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump2, loc:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1..*</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump2, loc:Station2)]::WayPoint::1</attached>
+                    <attached>[has : (equ:Pump2, loc:Station2)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
@@ -2425,15 +2413,27 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump2, loc:Station2)]::source::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1</name>
+            <edgeproperty id="[has : (equ:Pump2, loc:Station2)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump2, loc:Station2)]::WayPoint::0</attached>
+                    <attached>[has : (equ:Pump2, loc:Station2)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>BOTTOM</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[has : (equ:Pump2, loc:Station2)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>equ</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[has : (equ:Pump2, loc:Station2)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>TOP</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
@@ -2482,24 +2482,12 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump3, loc:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
-                <name>1..*</name>
+            <edgeproperty id="[has : (equ:Pump3, loc:Station1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>loc</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump3, loc:Station1)]::WayPoint::1</attached>
-                    <offset_x>8</offset_x>
-                    <offset_y>8</offset_y>
-                    <placement>BOTTOM</placement>
-                </strategy>
-                <hidden>false</hidden>
-            </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump3, loc:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>equ</name>
-                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
-                    <userOffsetX>0.0</userOffsetX>
-                    <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump3, loc:Station1)]::WayPoint::1</attached>
+                    <attached>[has : (equ:Pump3, loc:Station1)]::WayPoint::0</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
@@ -2518,15 +2506,27 @@
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>
-            <edgeproperty id="[has : (equ:Pump3, loc:Station1)]::source::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
-                <name>loc</name>
+            <edgeproperty id="[has : (equ:Pump3, loc:Station1)]::target::rolename" sizeCalculated="true" type="rolename" userDefined="false" visible="true">
+                <name>equ</name>
                 <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
                     <userOffsetX>0.0</userOffsetX>
                     <userOffsetY>0.0</userOffsetY>
-                    <attached>[has : (equ:Pump3, loc:Station1)]::WayPoint::0</attached>
+                    <attached>[has : (equ:Pump3, loc:Station1)]::WayPoint::1</attached>
                     <offset_x>8</offset_x>
                     <offset_y>8</offset_y>
                     <placement>TOP</placement>
+                </strategy>
+                <hidden>false</hidden>
+            </edgeproperty>
+            <edgeproperty id="[has : (equ:Pump3, loc:Station1)]::target::multiplicity" sizeCalculated="true" type="multiplicity" userDefined="false" visible="true">
+                <name>1..*</name>
+                <strategy type="org.tzi.use.gui.views.diagrams.elements.positioning.StrategyRelativeToAttached">
+                    <userOffsetX>0.0</userOffsetX>
+                    <userOffsetY>0.0</userOffsetY>
+                    <attached>[has : (equ:Pump3, loc:Station1)]::WayPoint::1</attached>
+                    <offset_x>8</offset_x>
+                    <offset_y>8</offset_y>
+                    <placement>BOTTOM</placement>
                 </strategy>
                 <hidden>false</hidden>
             </edgeproperty>

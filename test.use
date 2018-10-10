@@ -23,13 +23,23 @@ class Company
  operations
   stockPrice() : Real
 end
+
+class Job
+ attributes
+  title:String
+  startDate: Integer
+  salary:Integer
+end
+
+association employement
+ Person[1] role employee
+ Company[1] role employer
+end
+
 constraints
 context Company inv:
  numberOfEmployees > 50
 
-
-  
-association Job between
- Person[1] role employee
- Company[1] role employer
-end
+context Job
+  inv: self.employer.numberOfEmployees >= 1
+  inv: self.employee.age > 21

@@ -51,3 +51,33 @@
 !insert (Customer2,Pump6) into shoppingAt
 !insert (Customer3,Pump6) into shoppingAt
 !delete (Customer2,Pump6) from shoppingAt
+!Company1.wsprice := 15
+!Company1.money := 100
+!Store1.remainVolume := 1000
+!Store1.capacity := 10000
+!Station2.owedMoney := 50
+!Station2.money := 100
+!Pump1.fillVolume := 5
+!Pump1.rtPrice := 20
+!Pump1.occupied := true
+!Pump1.isReset := false
+!Pump2.fillVolume := 10
+!Pump2.rtPrice := 25
+!Pump2.occupied := false
+!Pump2.isReset := true
+!Customer1.money := 5
+!Customer1.requiredVolume := 10
+!Store2.remainVolume := 500
+!Store2.capacity := 1000
+!Pump4.fillVolume := 10
+!Pump4.rtPrice := 10
+!Pump4.occupied := false
+!Pump6.rtPrice := 100
+!Pump6.occupied := false
+!Pump6.isReset := true
+!Pump5.rtPrice := 30
+!Pump5.occupied := false
+!Pump5.isReset := true
+!Pump3.rtPrice := 32
+!Pump3.occupied := false
+!Pump3.isReset := true

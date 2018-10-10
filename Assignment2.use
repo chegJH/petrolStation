@@ -1,5 +1,4 @@
 model PetrolSupplySystem
-
 -------------------------------------------------------------------------------
 -- CLASSES ********************************************************************
 -------------------------------------------------------------------------------
@@ -19,7 +18,7 @@ attributes
 operations
   payOwe(amount : Real):Real
   resetRecord():Record -- reset the record written by other classe
-  restock(volume : Real):Real -- station initiate the restock request
+  restock(volume : Real): Real -- company came over to fill me up
 end
 
 class Pump
@@ -63,6 +62,7 @@ end
 
 class Customer < Person
  attributes
+  requiredVolume : Real
   todo : String
  operations
   fillup(fillAmount : Real):Real
@@ -90,11 +90,6 @@ end
 association connectedTo between
   Store[1] role source
   Pump[1..*] role drain
-end
-
-association interacts between
-  Person[1] role human
-  Pump[1] role machine
 end
 
 association recording between
@@ -137,22 +132,23 @@ context Customer::fillup(fillAmount:Real):Real
 --clearRecord: clean record
 -------------------------------------
 context Station::restock(volume:Real):Real
-  pre billPaid: self.owedMoney = 0
-  post fullFill: self.gasPool = 1000
-  post clearRecord: self.records.volume = 0
+  --pre billPaid: self.owedMoney = 0
+  pre needFill: self.gasPool.remainVolume < self.gasPool.capacity - 500
+  post fullFill: self.gasPool.remainVolume = self.gasPool.capacity
 
 -------------------------------------
 --payOff: payOff Company to clear record
 --clearRecord: clean record
 -------------------------------------
-context Station::resetRecord():Record
-  post payOff: self.head.money = self.head.money + self.owedMoney
-  post clearRecord: self.records.volume = 0
+--context Station::resetRecord():Record
+  --post payOff: self.head.money = self.head.money + self.owedMoney
+  --post clearRecord: self.records.volume = 0
 
 context Station::payOwe(amount:Real):Real
   pre haveMoney: self.money > owedMoney
   post pay: self.head.money =+owedMoney
   post payOff: self.money = self.money - owedMoney
+  post clearRecord: self.records.volume = 0
 
 context Record::reset():Real
   post clearRecord: self.volume = 0
@@ -161,7 +157,7 @@ context Pump::pumping(volume:Real):Real
   pre haveSource: self.source.remainVolume>volume
   pre: isReset = true
   post superVisorRecord: self.operater.notes.volume=+volume
-  post requestPayment: self.paymentSender.money =- fillVolume*rtPrice
+ -- post requestPayment: self.paymentSender.money =- fillVolume*rtPrice
   post collectMoney: self.loc.money=+fillVolume*rtPrice
   post :isReset = false
 
@@ -170,4 +166,35 @@ context Supervisor::reportRecords():Record
   pre workHere: self.employer = self.plateform
   pre allPumpRecorded: self.device->forAll(p:Pump | p.isReset = true) = true--self.device.isReset = true
   post reportVolume: self.plateform.records.volume=+self.notes.volume
+------------
+--invariants
+------------
+context Company inv noFreeSupport:
+  self.wsprice > 0
+context Company inv haveStation:
+  self.sub->size() > 0
+
+context Station inv moreThan2Pumps:
+  self.equ->size() > 1
+context Station inv onlyOneStore:
+  self.gasPool->size() = 1
+
+context Store inv cap:
+  self.remainVolume >= 0 and self.remainVolume <= self.capacity
+
+context Customer inv enoughMoney:
+  self.money >= self.requiredVolume * self.paymentReceiver.rtPrice
+
+context Pump inv noFreeGas:
+  self.rtPrice > 0
+context Pump inv readyToUse:
+  self.isReset = true
+context p : Pump inv onePumpOneStation:
+  p.loc->size() = 1
+
+context Pump inv profitRetailPrice: -- retail price shall higher than wholesale
+  self.rtPrice > self.loc.head.wsprice
+
+
+
 
