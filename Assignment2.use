@@ -201,4 +201,5 @@ context Station inv samePriceAtPump:
   let sz:Real = self.equ->size() in
   self.equ.rtPrice->forAll( p:Real | p =sum / sz )=true
 
-
+context Customer inv handleOnePumpOnly:
+  self.paymentReceiver->size() =1

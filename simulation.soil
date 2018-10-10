@@ -85,3 +85,9 @@
 !Pump2.rtPrice := 20
 !Pump6.rtPrice := 10
 !Pump5.rtPrice := 10
+!Pump4.isReset := true
+!Pump1.isReset := true
+!Company1.wsprice := 1
+!Customer2.money := 200
+!Customer3.money := 100
+!delete (Customer1,Pump2) from shoppingAt
