@@ -195,6 +195,10 @@ context p : Pump inv onePumpOneStation:
 context Pump inv profitRetailPrice: -- retail price shall higher than wholesale
   self.rtPrice > self.loc.head.wsprice
 
-
+context Station inv samePriceAtPump:
+  --let price:Real = self.equ.rtPrice in
+  let sum:Real = self.equ.rtPrice->sum() in
+  let sz:Real = self.equ->size() in
+  self.equ.rtPrice->forAll( p:Real | p =sum / sz )=true
 
 

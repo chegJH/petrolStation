@@ -81,3 +81,7 @@
 !Pump3.rtPrice := 32
 !Pump3.occupied := false
 !Pump3.isReset := true
+!Pump3.rtPrice := 10
+!Pump2.rtPrice := 20
+!Pump6.rtPrice := 10
+!Pump5.rtPrice := 10
