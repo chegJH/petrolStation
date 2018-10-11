@@ -1,0 +1,14 @@
+This is a work from JUNJIE HE and HEIYING CAI
+This is a git repository folder, 
+git log can be used to see submission and progress
+
+- post.pdf -- the POSTER 
+- Assignment2.use -- the OCL formal specification model in USE format
+- classDiagram.clt -- load this in Class Diagram window in USE to 
+                      see structured class diagram 
+- objectDiagram.olt -- load this in Object Diagram window in USE to
+                      see my implemented system which also used in
+                      verifications to demostrate the usage of class
+                      invariant
+- simulation.soil -- the soil file
+- 
